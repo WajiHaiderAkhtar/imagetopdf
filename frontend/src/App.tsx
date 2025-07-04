@@ -1,5 +1,4 @@
 import './App.css'
-import { FaGoogleDrive, FaDropbox } from 'react-icons/fa';
 import React, { useRef, useState } from 'react';
 
 function App() {
