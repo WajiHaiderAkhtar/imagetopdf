@@ -39,7 +39,7 @@ function App() {
     setPdfUrl(null);
     const formData = new FormData();
     images.forEach(img => formData.append('images', img));
-    const res = await fetch('https://imagetopdf-jeq9.onrender.com', {
+    const res = await fetch('https://imagetopdf-jeq9.onrender.com/convert', {
       method: 'POST',
       body: formData,
     });
