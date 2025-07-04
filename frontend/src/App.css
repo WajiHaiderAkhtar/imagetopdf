@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body, #root {
+  height: auto;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+body, #root, .container {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  background: #f7f7fb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 45px;
+  justify-content: flex-start;
+  height: auto;
+}
+
+.main-title {
+  font-size: 3rem;
+  font-weight: 3rem;
+  /* font-weight: 600;
+  font-size: 42px; */
+  line-height: 52px;
+  margin-bottom: 1rem;
+  color: #23232b;
+}
+
+.subtitle {
+  /* font-size: 2rem; */
+  font-size: 22px;
+  font-weight: 400;
+  color: #444;
+  margin-bottom: 2rem;
+}
+
+.upload-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.select-btn {
+  background: #e53935;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 20px;
+  padding: 1.5rem 2.5rem;
+  box-shadow: 0 4px 16px rgba(229,57,53,0.08);
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-left: auto;
+  margin-right: auto;
+}
+.select-btn:hover {
+  background: #c62828;
+}
+
+.drag-text {
+  margin-top: 1.5rem;
+  color: #444;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.footer {
+  width: 100vw;
+  text-align: center;
+  padding: 18px 0 12px 0;
+  background: #23232b;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
